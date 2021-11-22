@@ -1,2 +1,11 @@
-# ML-To-SQL
-Code for the ML-To-SQL framework described in paper (LINK). Allows transforming ML models to a relational representation and performing model inference using plain SQL..
+# ML-To-SQL 
+
+Representation and execution of ML models inside a DBMS
+
+## Requirements and Setup
+
+conda is used to manage a virtual Python environment. Just create the conda environment via
+
+```
+conda create --name mldb --file requirements.txt
+```
